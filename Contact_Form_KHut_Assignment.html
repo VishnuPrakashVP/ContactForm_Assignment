@@ -1,0 +1,142 @@
+<html>
+
+<head>
+    <title>Web Development</title>
+</head>
+
+
+<body>
+    <table align="center">
+        <thead style="padding:60px; background-color:#ff69b4">
+            <tr>
+                <td colspan="2" style="font-style:normal; padding-right:90px; padding-left:20px;">
+                    <strong>Features</strong></td>
+                <td style="font-style:normal;padding-right:30px; padding-left:20px"><strong>Basic</strong></td>
+                <td style="font-style:normal;padding-right:30px; padding-left:20px"><strong>Professional</strong></td>
+
+            </tr>
+        </thead>
+        <tbody style="padding:60px; background-color:#ffb6c1">
+            <tr>
+                <td colspan="2" style="font-style:normal; padding-right:90px; padding-left:20px;">Storage Space</td>
+                <td style="font-style:normal;padding-right:30px; padding-left:20px">1 GB</td>
+                <td style="font-style:normal;padding-right:30px; padding-left:20px">Unlimited</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="font-style:normal; padding-right:90px; padding-left:20px;">Email Space</td>
+                <td style="font-style:normal;padding-right:30px; padding-left:20px">100 MB</td>
+                <td style="font-style:normal;padding-right:30px; padding-left:20px">1 GB</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="font-style:normal; padding-right:90px; padding-left:20px">Free Email Accounts
+                </td>
+                <td style="font-style:normal;padding-right:30px; padding-left:20px">No</td>
+                <td style="font-style:normal;padding-right:30px; padding-left:20px">Yes</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="font-style:normal; padding-right:90px; padding-left:20px">Number of Websites</td>
+                <td style="font-style:normal;padding-right:30px; padding-left:20px">1</td>
+                <td style="font-style:normal;padding-right:30px; padding-left:20px">Unlimited</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="font-style:normal; padding-right:90px;  padding-left:20px">Price (per month)</td>
+                <td style="font-style:normal;padding-right:30px; padding-left:20px">Free</td>
+                <td style="font-style:normal;padding-right:30px; padding-left:20px">$ 9</td>
+            </tr>
+            <tr style="padding-top:50px">
+                <td colspan="2" style="font-style:normal; padding-right:90px; padding-left:20px"></td>
+                <td style="font-style:normal;padding-right:30px; padding-left:20px"><button type="button"
+                        value="Subscribe">Subscribe</button></td>
+                <td style="font-style:normal;padding-right:30px; padding-left:20px"><button type="button"
+                        value="Subscribe">Subscribe</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <form action="/" method="POST">
+        <table align="center">
+
+            <tbody>
+                <tr>
+                    <td style="background-color:#ffb6c1; padding:10px 30px 5px 10px"><label
+                            for="name"><b>Name</b></label></td>
+                    <td colspan="2" style="background-color:#ffefd5"><input type="text" id="name" required></td>
+
+                </tr>
+                <tr>
+                    <td style="background-color:#ffb6c1; padding:10px 30px 5px 10px"><label
+                            for="email"><b>Email</b></label></td>
+                    <td colspan="2" style="background-color:#ffefd5"><input type="email" id="email" required></td>
+
+                </tr>
+                <tr>
+                    <td style="background-color:#ffb6c1; padding:10px 30px 5px 10px"><label
+                            for="phone"><b>Phone</b></label></td>
+                    <td colspan="2" style="background-color:#ffefd5"><input type="tel" id="phone" minlength="10"
+                            maxlength="10"></td>
+
+                </tr>
+                <tr>
+                    <td style="background-color:#ffb6c1; padding:10px 30px 5px 10px"><label><b>Gender</b></label></td>
+                    <td colspan="2" style="background-color:#ffefd5">
+                        <input type="radio" name="gender" id="Male">Male
+                        <input type="radio" name="gender" id="Female">Female
+                    </td>
+
+                </tr>
+                <tr>
+                    <td style="background-color:#ffb6c1; padding:10px 30px 5px 10px"><label
+                            for="profession"><b>Profession</b></label></td>
+                    <td colspan="2" style="background-color:#ffefd5">
+                        <select name="profession" id="profession">
+                            <option value="govt">Govt. Official</option>
+                            <option value="private">Private Employee</option>
+                            <option value="self">Self Employeed</option>
+                            <option value="student">Student</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td style="background-color:#ffb6c1; padding:10px 30px 5px 10px;"><label
+                            for="msg"><b>Message</b></label></td>
+                    <td colspan="2" style="background-color:#ffefd5"><textarea name="msg" id="msg" cols="40" rows="6"
+                            placeholder="Your Message....." required></textarea></td>
+
+                </tr>
+                <tr>
+                    <td style="background-color:#ffb6c1; padding:10px 30px 5px 10px" colspan="2"><input type="checkbox"
+                            required>
+                        <label><b>I accept the terms and conditions</b></label>
+                    </td>
+
+
+                </tr>
+
+                <tr>
+                    <td style="background-color:#ffb6c1; padding:10px 30px 5px 10px"><button type="reset"
+                            style="border:2px solid hotpink; background-color:transparent;"><b>Reset</b></button></td>
+                    <td style="background-color:#ffb6c1; padding:10px 30px 5px 10px; text-align:right"><button
+                            type="submit"
+                            style="border:2px solid hotpink; background-color:transparent;"><b>Submit</b></button></td>
+
+
+                </tr>
+
+
+
+
+            </tbody>
+        </table>
+
+
+
+
+    </form>
+
+
+</body>
+
+</html>
